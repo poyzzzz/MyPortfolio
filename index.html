@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="navbar">
+        <a href="#" class="logo">Stephanie.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Stephanie Mae Allones</h1>
+            <h3>Frontend Developer</h3>
+            <p>Welcome to my personal portfolio! I create beautiful and functional websites. Let's work together to build something amazing!</p>
+            <div class="btn-box">
+                <a href="#portfolio" class="btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="tephy.jpg" alt="Stephanie Mae Allones"> <!-- Replace with your actual image path -->
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/steph.allonesii"><i class="bx bxl-facebook"></i></a>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I’m a passionate frontend developer with experience in building interactive websites. My goal is to create responsive, high-performance websites that provide excellent user experiences. I'm always eager to learn new technologies and stay up-to-date with the latest industry trends.</p>
+    </section>
+
+    
+    <section id="services" class="services">
+        <h2>My Services</h2>
+        <div class="service">
+            <i class="bx bxl-html5"></i>
+            <h3>Web Design</h3>
+            <p>Creating responsive, user-friendly, and visually appealing websites that work well on all devices.</p>
+        </div>
+        <div class="service">
+            <i class="bx bxl-css3"></i>
+            <h3>Frontend Development</h3>
+            <p>Building interactive and dynamic websites with HTML, CSS, and JavaScript, focusing on performance and user experience.</p>
+        </div>
+        <div class="service">
+            <i class="bx bxl-react"></i>
+            <h3>React Development</h3>
+            <p>Building modern single-page applications (SPAs) using React, ensuring fast performance and a smooth user experience.</p>
+        </div>
+    </section>
+
+  
+    <section id="portfolio" class="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="ss.jpg" alt="Project 1">
+                <h4>Project 1</h4>
+                <p>A modern portfolio website built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="ssq2.jpg" alt="Project 2">
+                <h4>Project 2</h4>
+                <p>A React-based web app for managing tasks and projects.</p>
+            </div>
+          
+        </div>
+    </section>
+
+ 
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Stephanie Allones. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

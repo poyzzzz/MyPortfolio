@@ -1,0 +1,324 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  float: right;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ffa500;
+}
+
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+.home-content {
+  max-width: 50%;
+}
+
+.home h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.home h3 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.home-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.btn-box a {
+  margin-right: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #ffa500;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #ffa500;
+  color: #ffa500;
+}
+
+.home-sci {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.home-sci i {
+  font-size: 30px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.home-sci i:hover {
+  color: #ffa500;
+}
+
+.about {
+  padding: 50px;
+  background: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.services {
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+
+.service i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+.portfolio {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.portfolio-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: 250px;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.portfolio-item h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.portfolio-item a {
+  text-decoration: none;
+  color: #2575fc;
+  font-weight: bold;
+}
+
+.portfolio-item a:hover {
+  color: #ffa500;
+}
+
+
+.contact {
+  padding: 50px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact form button {
+  background-color: #ffa500;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #ff7a00;
+}
+
+
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .home {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .home-content {
+      max-width: 100%;
+  }
+
+  .home-image {
+      width: 60%;
+      margin-top: 20px;
+  }
+
+  .services .service {
+      width: 100%;
+      margin-bottom: 30px;
+  }
+
+  .portfolio-items {
+      flex-direction: column;
+  }
+
+  .contact form {
+      width: 90%;
+  }
+}
